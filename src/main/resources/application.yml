@@ -4,6 +4,14 @@ spring:
     username: root
     password:
 
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23liaV51sArDaUKN6Y
+            client-secret: 58dd4f257fe711a2beb12f225cdde43a94c627a7
+  #            redirectUri: http://localhost:8200/login/oauth2/code/github
 
   jpa:
     hibernate:
@@ -13,3 +21,6 @@ logging:
   level:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql: TRACE
+
+
+
